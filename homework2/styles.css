@@ -1,0 +1,607 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comfortaa", cursive;
+  color: white;
+}
+.bark {
+  display: inline-block;
+  width: 40vw;
+  margin-left: 55vw;
+  padding-bottom: 100px;
+  margin-top: -25vh;
+}
+div {
+  font-size: 20px;
+  color: rgb(45, 41, 48);
+}
+.banner {
+  background: linear-gradient(
+      90deg,
+      rgba(16, 156, 241, 0.7) 0%,
+      rgba(66, 139, 193, 0.7) 100%
+    ),
+    url(./images/girlonlaptop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+/* .header {
+  background: linear-gradient(rgba(82, 11, 212, 0.5), rgb(140, 95, 212)),
+    url(./big.jpeg);
+} */
+.pic {
+  background: url(./images/pic.png);
+  background-repeat: no-repeat;
+  background-position: 80% 50%;
+}
+.head {
+  /* align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center; */
+  text-align: center;
+  padding-top: 10%;
+  margin-bottom: 80px;
+  height: 80px;
+}
+
+.body {
+  margin: 5px;
+  text-align: center;
+}
+p {
+  font-weight: bold;
+}
+#main {
+  padding-top: 40px;
+  padding-left: 140px;
+  width: 82px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 350px;
+}
+#button {
+  margin-left: 48vw;
+  margin-top: 60px;
+  color: blue;
+  width: 140px;
+  height: 50px;
+  border-radius: 6px;
+  border: grey solid 1px;
+  margin-left: 45vw;
+  cursor: pointer;
+}
+.icons {
+  padding-left: 50px;
+  text-decoration: none;
+}
+#but {
+  width: 120px;
+  height: 40px;
+  margin-left: 270px;
+  display: inline;
+  background-color: rgba(16, 156, 241, 0.7);
+  color: white;
+  border-radius: 6px;
+  border: grey solid 1px;
+  cursor: pointer;
+}
+.first {
+  background-color: white;
+  width: 255px;
+  height: 226px;
+  padding: 0;
+  margin-top: -100px;
+  margin-left: 170px;
+  text-align: center;
+  box-shadow: grey 0 0 15px 0;
+  display: inline-block;
+}
+h6,
+.description {
+  color: black;
+  font-size: small;
+  margin-top: 5px;
+}
+h6 {
+  font-weight: bolder;
+  font-size: large;
+  font-weight: 700;
+}
+.description {
+  width: 250px;
+  margin-right: 0;
+  font-weight: 400;
+}
+span {
+  display: block;
+}
+.img1 {
+  width: 64.17px;
+  height: 46.67px;
+}
+.numbers {
+  font-size: 90px;
+  margin-bottom: -60px;
+  color: rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 117;
+  height: 120px;
+  margin-top: 20px;
+}
+.others {
+  background-color: white;
+  width: 255px;
+  height: 226px;
+  padding: 0;
+  margin-top: -100px;
+  margin-left: 30px;
+  text-align: center;
+  box-shadow: grey 0 0 15px 0;
+  display: inline-block;
+}
+.second {
+  width: 98.8vw;
+  height: 470px;
+  /* background: url("./small.jpeg");
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  background-position: center;
+  background-position: 20% 50%;
+  background-attachment: fixed; */
+  background: #109cf1;
+  text-align: left;
+}
+/* .second::before {
+  background: url("./present.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+} */
+.heading,
+.paragraph {
+  padding-left: 200px;
+}
+.heading {
+  padding-top: 13vh;
+  width: 43.2vw;
+}
+.paragraph {
+  font-size: 14px;
+  width: 730px;
+  height: 250px;
+  line-height: 140%;
+}
+.thirdpage {
+  color: black;
+  margin-top: 20px;
+}
+#inbut {
+  margin-top: 70px;
+  width: 255px;
+  height: 59px;
+  margin-right: 20px;
+  border-radius: 6px;
+  border: 1px solid grey;
+}
+#ingut {
+  margin-top: 70px;
+  width: 255px;
+  height: 59px;
+  margin-right: 20px;
+  border-radius: 6px;
+  border: 1px solid grey;
+}
+#inout {
+  margin-top: 30px;
+  width: 540px;
+  height: 59px;
+  border-radius: 6px;
+  border: 1px solid grey;
+}
+#final {
+  width: 160px;
+  height: 49px;
+  margin-top: 30px;
+}
+#cont,
+#cont1 {
+  color: black;
+  margin-left: 10vw;
+}
+#cont {
+  margin-top: -25vh;
+  margin-bottom: 5vh;
+}
+#cont1 {
+  width: 30vw;
+}
+#final {
+  width: 160px;
+  height: 49px;
+  background-color: rgba(16, 156, 241, 0.7);
+  color: white;
+  border-radius: 6px;
+  border: grey solid 1px;
+  cursor: pointer;
+}
+.block1,
+.block2,
+.block3 {
+  color: black;
+  display: inline-block;
+}
+.block1 {
+  width: 34vw;
+  margin-left: 5vw;
+}
+.block2 {
+  width: 25vw;
+}
+.block3 {
+  width: 30vw;
+}
+.links {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+.prom {
+  background-color: #ededed;
+  width: 98.8vw;
+  height: 216px;
+  margin-right: 0;
+}
+.bespo,
+.bespo1,
+.bespo2,
+.bespo3 {
+  color: black;
+  text-align: center;
+}
+/* .block1 {
+  margin-top: 40px;
+}
+.block2 {
+  margin-top: 30px;
+}
+.block3 {
+  margin-top: 40px;
+} */
+.bespo1 {
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+.bespo2 {
+  margin-bottom: 3vh;
+  margin-top: 7vh;
+}
+.bespo3 {
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+.pic3 {
+  margin-top: -50vh;
+  margin-bottom: 50vh;
+  margin-left: 130vh;
+}
+.pic2 {
+  margin-top: -140vh;
+  margin-bottom: 53vh;
+  margin-left: 110vh;
+}
+.pic1 {
+  margin-top: -140vh;
+  margin-bottom: 53vh;
+  margin-left: 116vh;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+@media only screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comfortaa", cursive;
+    color: white;
+  }
+  .bark {
+    display: inline-block;
+    width: 100vw;
+    margin-left: 0;
+    padding-bottom: 5em;
+    margin-top: 0;
+  }
+  div {
+    font-size: 0.5em;
+    color: rgb(45, 41, 48);
+  }
+  .banner {
+    background: linear-gradient(
+        90deg,
+        rgba(16, 156, 241, 0.7) 0%,
+        rgba(66, 139, 193, 0.7) 100%
+      ),
+      url(./images/girlonlaptop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 68vh;
+    width: 100vw;
+  }
+  /* .header {
+  background: linear-gradient(rgba(82, 11, 212, 0.5), rgb(140, 95, 212)),
+    url(./big.jpeg);
+} */
+  .pic {
+    background: url(./images/pic.png);
+    background-repeat: no-repeat;
+    background-position: 80% 50%;
+  }
+  .head {
+    /* align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center; */
+    text-align: center;
+    padding-top: 2em;
+    margin-bottom: 0;
+    height: 80px;
+  }
+
+  .body {
+    text-align: center;
+  }
+  p {
+    font-weight: bold;
+  }
+  #main {
+    padding-top: 1em;
+    padding-left: 2.5em;
+    width: 7.5em;
+    display: inline-block;
+    margin-right: 2em;
+  }
+  #button {
+    color: blue;
+    width: 4em;
+    height: 2em;
+    border-radius: 6px;
+    border: grey solid 1px;
+    cursor: pointer;
+    margin: 1.5em 0 0 44vw;
+  }
+  .icons {
+    padding-left: 1em;
+    text-decoration: none;
+  }
+  #but {
+    width: 3em;
+    height: 2em;
+    margin-left: 102em;
+    display: inline;
+    background-color: rgba(16, 156, 241, 0.7);
+    color: white;
+    border-radius: 1em;
+    border: grey solid 1px;
+    cursor: pointer;
+  }
+  .first {
+    background-color: white;
+    width: 255px;
+    height: 226px;
+    padding: 0;
+    margin-top: -50px;
+    margin-left: 14vw;
+    text-align: center;
+    box-shadow: grey 0 0 15px 0;
+    display: block;
+  }
+  h6,
+  .description {
+    color: black;
+    margin-top: 5px;
+  }
+  h6 {
+    font-weight: bolder;
+    font-size: large;
+    font-weight: 700;
+  }
+  .description {
+    width: 250px; /*i wanted here the full size of the box to align thetext on the center*/
+    margin-right: 0;
+    font-weight: 400;
+    font-size: small;
+  }
+  span {
+    display: block;
+  }
+  .img1 {
+    width: 64.17px;
+    height: 46.67px;
+  }
+  .numbers {
+    font-size: 90px;
+    margin-bottom: -60px;
+    color: rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 117;
+    height: 120px;
+    margin-top: 20px;
+  }
+  .others {
+    background-color: white;
+    width: 255px;
+    height: 226px;
+    padding: 0;
+    margin-top: -50px;
+    margin-left: 14vw;
+    text-align: center;
+    box-shadow: grey 0 0 15px 0;
+    display: block;
+  }
+  .second {
+    width: 100vw;
+    height: 100vh;
+    /* background: url("./small.jpeg");
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  background-position: center;
+  background-position: 20% 50%;
+  background-attachment: fixed; */
+    background: #109cf1;
+  }
+  /* .second::before {
+  background: url("./present.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+} */
+  .heading {
+    padding-top: 2em;
+    padding-left: 0;
+    width: 100vw;
+    text-align: center;
+  }
+  .paragraph {
+    font-size: 14px;
+    width: 100vw;
+    line-height: 140%;
+    padding: 0;
+    text-align: center;
+  }
+  .thirdpage {
+    color: black;
+    margin-top: 0.5em;
+    margin-left: 2.5em;
+  }
+  #inbut {
+    width: 80vw;
+    height: 3em;
+    margin-right: 0;
+    margin-bottom: 0;
+    border-radius: 3px;
+    border: 1px solid grey;
+    margin-top: 2em;
+  }
+  #inout {
+    margin-top: 0.5em;
+    width: 80vw;
+    height: 3em;
+    border-radius: 3px;
+    border: 1px solid grey;
+  }
+  #ingut {
+    margin-top: 0.5em;
+    width: 80vw;
+    height: 3em;
+    border-radius: 3px;
+    border: 1px solid grey;
+  }
+  #cont,
+  #cont1 {
+    color: black;
+    width: 100vw;
+    text-align: center;
+    margin: 0 0 0 0;
+  }
+  #cont {
+    margin-bottom: 5vh;
+    margin-top: -10vh;
+  }
+  #final {
+    width: 20vw;
+    height: 2em;
+    background-color: rgba(16, 156, 241, 0.7);
+    color: white;
+    border-radius: 3px;
+    border: grey solid 1px;
+    cursor: pointer;
+    margin-top: 0.5em;
+  }
+  .block1,
+  .block2,
+  .block3 {
+    color: black;
+    display: inline-block;
+  }
+  .block1 {
+    width: 34vw;
+    margin-left: 5vw;
+  }
+  .block2 {
+    width: 25vw;
+  }
+  .block3 {
+    width: 30vw;
+  }
+  .links {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .prom {
+    background-color: #ededed;
+    width: 98.8vw;
+    height: 216px;
+    margin-right: 0;
+  }
+  .bespo,
+  .bespo1,
+  .bespo2,
+  .bespo3 {
+    color: black;
+    text-align: center;
+  }
+  /* .block1 {
+  margin-top: 40px;
+}
+.block2 {
+  margin-top: 30px;
+}
+.block3 {
+  margin-top: 40px;
+} */
+  .bespo1 {
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+  }
+  .bespo2 {
+    margin-bottom: 5vh;
+    margin-top: 0;
+  }
+  .bespo3 {
+    margin-bottom: 6vh;
+    margin-top: 0;
+  }
+  .pic3 {
+    margin-top: -65vh;
+    margin-bottom: 50vh;
+    margin-left: 4.5em;
+    width: 70vw;
+    height: 165px;
+  }
+  .pic2 {
+    margin-top: -80vh;
+    margin-bottom: 53vh;
+    margin-left: 2.5em;
+    width: 70vw;
+    height: 165px;
+  }
+  .pic1 {
+    margin-top: -79.5vh;
+    margin-bottom: 55vh;
+    margin-left: 3.5em;
+    width: 70vw;
+  }
+}
